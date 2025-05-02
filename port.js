@@ -45,13 +45,13 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, contact f
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 
-const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer'],
-    typeSpeed: 200,
-    backSpeed: 70,
-    backDelay: 1000,
-    loop: true,
-});
+// const typed = new Typed('.multiple-text', {
+//     // strings: ['Frontend Developer'],
+//     typeSpeed: 200,
+//     backSpeed: 70,
+//     backDelay: 1000,
+//     loop: true,
+// });
 // Select the button and the skills section
 let skillsButton = document.querySelector('#skills'); // Replace '#skills-button' with the actual ID or class of your button
 let skillsSection = document.querySelector('.skills'); // Replace '.skills' with the actual class or ID of the skills section
